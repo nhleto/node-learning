@@ -1,10 +1,12 @@
 const http = require('http')
-var fs = require('fs');
 
+const port = process.env.port || 3000
 
-http.createServer(function(req, res) {
-  fs.appendFile('demofile.html', 'Hello Content', (err) => {
-    if (err) throw err
-    console.log('Saved!')
-  })
+const server = http.createServer((req, res) => {
+    res.statusCode = 200
+    res.setHeader('Content-type', 'text/hmtl')
+})
+
+server.listen(port, () => {
+    console.log('server running at {port}', 3000)
 })
