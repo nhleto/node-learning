@@ -10,3 +10,9 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
     console.log('listening at port 8080')
 })
+
+const routes = {
+    index: () => {
+        
+    }
+}
