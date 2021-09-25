@@ -1,0 +1,19 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Node learning fun",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhleto/node-learning.git"
+  },
+  "author": "Henry Leto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhleto/node-learning/issues"
+  },
+  "homepage": "https://github.com/nhleto/node-learning#readme"
+}
