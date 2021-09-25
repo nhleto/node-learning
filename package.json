@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nhleto/node-learning/issues"
   },
-  "homepage": "https://github.com/nhleto/node-learning#readme"
+  "homepage": "https://github.com/nhleto/node-learning#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
