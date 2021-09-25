@@ -2,7 +2,7 @@
   "name": "learning",
   "version": "1.0.0",
   "description": "Node learning fun",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
