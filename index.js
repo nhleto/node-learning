@@ -1,5 +1,8 @@
 const http = require("http");
 const fs = require("fs");
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
 
 const port = process.env.PORT || 8080;
 

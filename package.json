@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nhleto/node-learning#readme",
   "dependencies": {
+    "firebase": "^8.10.0",
     "nodemon": "^2.0.13"
   }
 }
